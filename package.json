@@ -1,0 +1,32 @@
+{
+  "name": "deen-commerce-app",
+  "version": "0.1.0",
+  "description": "DEEN Commerce Android mobile application powered by Capacitor 6+",
+  "private": true,
+  "scripts": {
+    "build": "tsc --noEmit",
+    "cap": "cap",
+    "sync": "cap sync android",
+    "copy": "cap copy android",
+    "open:android": "cap open android",
+    "run:android": "cap run android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/app": "^6.0.2",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/network": "^6.0.3",
+    "@capacitor/splash-screen": "^6.0.3",
+    "@capacitor/status-bar": "^6.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sajid-ul-Islam/deen-cap-app.git"
+  },
+  "author": "DEEN Commerce",
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DEEN Commerce</string>
+    <string name="title_activity_main">DEEN Commerce</string>
+    <string name="package_name">com.deencommerce.app</string>
+    <string name="custom_url_scheme">com.deencommerce.app</string>
+</resources>

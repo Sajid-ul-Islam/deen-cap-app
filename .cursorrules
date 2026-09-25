@@ -1,0 +1,12 @@
+# Cursor AI Rules — DEEN Commerce Capacitor Android Wrapper
+
+- Project: Capacitor Android wrapper for https://deencommerce.com/
+- App ID: com.deencommerce.app
+- Never edit android/ native files unless explicitly asked by the user.
+- Always run `npx cap sync android` after changing capacitor.config.ts or installing plugins.
+- Use TypeScript strict mode ("strict": true). No `any` types unless explicitly justified.
+- Format with Prettier (2 spaces, single quotes). Lint with ESLint.
+- Commits: Follow Conventional Commits specification (feat, fix, docs, chore, etc.).
+- Never commit secrets, keystores, google-services.json, .env, or build artifacts.
+- Preserve session persistence and hardware back-button handling in all wrapper logic.
+- Reference AGENTS.md, RULES.md, and ARCHITECTURE.md for complete engineering context.
